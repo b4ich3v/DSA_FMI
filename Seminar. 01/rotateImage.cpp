@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 class Solution 
 {
@@ -13,7 +14,7 @@ public:
         for (int i = 0; i < size; i++)
         {
 
-            for (int j = 0; j < size; j++)
+            for (int j = i + 1; j < size; j++)
             {
 
                 std::swap(matrix[i][j], matrix[j][i]);
