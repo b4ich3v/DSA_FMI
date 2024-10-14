@@ -15,5 +15,3 @@
 8. Container with most water - Medium - https://www.hackerrank.com/contests/practice-1-sda/challenges/challenge-2196/problem
 
 9. Missing Bus Ticket 2(First missing positive number) - Hard - https://leetcode.com/problems/first-missing-positive/
-
-10. First try to solve it with O(N) time and O(N) space (as we did in the last seminar)
