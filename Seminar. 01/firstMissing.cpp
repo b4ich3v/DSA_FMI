@@ -2,38 +2,31 @@
 #include <vector>
 #include <algorithm>
 
-class Solution 
+class Solution
 {
 public:
 
     int firstMissingPositive(std::vector<int>& nums)
     {
 
-        for (int i = 0; i < nums.size(); i++) 
+        int size = nums.size();
+        std::vector<bool> container(size + 1, false);
+
+        for (int i = 0; i < size; i++)
         {
 
-            while (nums[i] >= 1 && nums[i] <= nums.size() && nums[nums[i] - 1] != nums[i])
-            {
-
-                std::swap(nums[i], nums[nums[i] - 1]);
-
-            }
+            if (nums[i] > 0 && nums[i] <= size) container[nums[i]] = true;
 
         }
 
-        for (int i = 0; i < nums.size(); i++) 
+        for (int i = 1; i <= size; i++)
         {
 
-            if (nums[i] != i + 1) 
-            {
-
-                return i + 1;
-
-            }
-
+            if (!container[i])  return i;
+         
         }
 
-        return nums.size() + 1;
+        return size + 1; 
 
     }
 
