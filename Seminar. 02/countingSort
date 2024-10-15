@@ -1,0 +1,192 @@
+#include <iostream>
+#include <vector>
+#include <algorithm> 
+
+using namespace std;
+
+template <typename T>
+
+void printVector(const vector<T>& arr)
+{
+
+    for (const auto& elem : arr)
+    {
+
+        cout << elem << " ";
+
+    }
+
+    cout << endl;
+
+}
+
+void countingSort(vector<int>& arr)
+{
+
+    int N = arr.size();
+    if (N == 0) return;
+    int K = *max_element(arr.begin(), arr.end()) + 1;
+
+    vector<int> output(N);
+    vector<int> count(K, 0);
+
+    for (int i = 0; i < N; i++)
+    {
+
+        count[arr[i]]++;
+
+    }
+
+    for (int i = 1; i < K; i++)
+    {
+
+        count[i] += count[i - 1];
+
+    }
+
+    for (int i = N - 1; i >= 0; i--)
+    {
+
+        output[count[arr[i]] - 1] = arr[i];
+        count[arr[i]]--;
+
+    }
+
+    for (int i = 0; i < N; i++)
+    {
+
+        arr[i] = output[i];
+
+    }
+
+}
+
+void countingSortWithNegatives(vector<int>& arr)
+{
+
+    int N = arr.size();
+    if (N == 0) return;
+
+    int max_value = *max_element(arr.begin(), arr.end());
+    int min_value = *min_element(arr.begin(), arr.end());
+    int K = max_value - min_value + 1;
+
+    vector<int> output(N);
+    vector<int> count(K, 0);
+
+    for (int i = 0; i < N; i++)
+    {
+
+        count[arr[i] - min_value]++;
+
+    }
+
+    for (int i = 1; i < K; i++)
+    {
+
+        count[i] += count[i - 1];
+
+    }
+
+    for (int i = N - 1; i >= 0; i--)
+    {
+
+        output[count[arr[i] - min_value] - 1] = arr[i];
+        count[arr[i] - min_value]--;
+
+    }
+
+    for (int i = 0; i < N; i++)
+    {
+
+        arr[i] = output[i];
+
+    }
+
+}
+
+void printVectorOfPairs(const vector<pair<int, string>>& arr)
+{
+
+    for (const auto& elem : arr)
+    {
+
+        cout << "(" << elem.first << ", " << elem.second << ") ";
+
+    }
+
+    cout << endl;
+
+}
+
+void countingSortPairs(vector<pair<int, string>>& arr)
+{
+
+    int N = arr.size();
+    if (N == 0) return;
+
+    int K = (*max_element(arr.begin(), arr.end(), [](const pair<int, string>& a, const pair<int, string>& b)
+        { return a.first < b.first; }))
+        .first +
+        1;
+
+    vector<pair<int, string>> output(N);
+    vector<int> count(K, 0);
+
+    for (int i = 0; i < N; i++)
+    {
+
+        count[arr[i].first]++;
+
+    }
+
+    for (int i = 1; i < K; i++)
+    {
+
+        count[i] += count[i - 1];
+
+    }
+
+    for (int i = N - 1; i >= 0; i--)
+    {
+
+        output[count[arr[i].first] - 1] = arr[i];
+        count[arr[i].first]--;
+
+    }
+
+    for (int i = 0; i < N; i++)
+    {
+
+        arr[i] = output[i];
+
+    }
+
+}
+
+int main()
+{
+    
+    cout << "Standard Counting Sort:\n";
+    vector<int> arr1 = { 9, 4, 3, 2, 6, 7, 1, 8, 5 };
+    countingSort(arr1);
+    cout << "Sorted array: ";
+    printVector(arr1);
+    cout << endl;
+
+    cout << "Counting Sort with Negative Values:\n";
+    vector<int> arr2 = { 0, 4, -3, -2, 1, 2, -1, 6, 5 };
+    countingSortWithNegatives(arr2);
+    cout << "Sorted array: ";
+    printVector(arr2);
+    cout << endl;
+
+    cout << "Stable Counting Sort for Pairs:\n";
+    vector<pair<int, string>> arr = { {6, "Bella"}, {5, "Bailey"}, {6, "Charlie"}, {6, "Daisy"}, {5, "Luna"} };
+    countingSortPairs(arr);
+    cout << "Sorted pairs: ";
+    printVectorOfPairs(arr);
+
+    return 0;
+
+}
