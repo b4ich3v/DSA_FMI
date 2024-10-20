@@ -8,7 +8,7 @@ void addNum(int num, std::priority_queue<int>& maxHeap, std::priority_queue<int,
 
     maxHeap.push(num);
 
-    if (!minHeap.empty() && maxHeap.top() > minHeap.top()) 
+    if (!minHeap.empty() && maxHeap.top() > minHeap.top())
     {
 
         int temp = maxHeap.top();
@@ -17,7 +17,7 @@ void addNum(int num, std::priority_queue<int>& maxHeap, std::priority_queue<int,
 
     }
 
-    if (maxHeap.size() > minHeap.size() + 1) 
+    if (maxHeap.size() > minHeap.size() + 1)
     {
 
         int temp = maxHeap.top();
@@ -25,7 +25,7 @@ void addNum(int num, std::priority_queue<int>& maxHeap, std::priority_queue<int,
         minHeap.push(temp);
 
     }
-    else if (minHeap.size() > maxHeap.size()) 
+    else if (minHeap.size() > maxHeap.size())
     {
 
         int temp = minHeap.top();
@@ -36,26 +36,29 @@ void addNum(int num, std::priority_queue<int>& maxHeap, std::priority_queue<int,
 
 }
 
-double findMedian(const std::priority_queue<int>& maxHeap, const std::priority_queue<int, std::vector<int>, std::greater<int>>& minHeap) 
+double findMedian(const std::priority_queue<int>& maxHeap, const std::priority_queue<int, std::vector<int>, std::greater<int>>& minHeap)
 {
 
-    if (maxHeap.size() > minHeap.size()) 
+    if (maxHeap.size() > minHeap.size())
     {
 
-        return maxHeap.top(); 
+        return maxHeap.top();
 
     }
-    else 
+    else
     {
 
-        return (maxHeap.top() + minHeap.top()) / 2.0; 
+        return (maxHeap.top() + minHeap.top()) / 2.0;
 
     }
 
 }
 
-int main() 
+int main()
 {
+
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
 
     int N;
     std::cin >> N;
