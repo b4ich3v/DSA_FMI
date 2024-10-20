@@ -1,40 +1,33 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <cstdio>  
 
-int main() 
+int main()
 {
 
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
-    int n, q;
+    long long n, q;
     std::cin >> n >> q;
 
-    const int MAX_POINTS = 100000; 
-    std::vector<int> frequency(MAX_POINTS + 1, 0);
+    std::vector<long long> scores(n);
+    for (long long i = 0; i < n; i++) std::cin >> scores[i];
 
-    for (int i = 0; i < n; i++) 
+    std::sort(scores.begin(), scores.end());
+
+    for (long long i = 0; i < q; i++)
     {
 
-        int point;
-        std::cin >> point;
-        frequency[point]++;
-
-    }
-
-    for (int i = 1; i <= MAX_POINTS; i++) frequency[i] += frequency[i - 1];
-
-    for (int i = 0; i < q; i++) 
-    {
-
-        int a, b;
+        long long a, b;
         std::cin >> a >> b;
 
-        a = (a < 0) ? 0 : a; 
-        b = (b > MAX_POINTS) ? MAX_POINTS : b;  
+        auto lower = std::lower_bound(scores.begin(), scores.end(), a);
+        auto upper = std::upper_bound(scores.begin(), scores.end(), b);
 
-        int result = frequency[b] - (a > 0 ? frequency[a - 1] : 0);
-        std::cout << result << '\n';
+        long long count = upper - lower;
+        std::cout << count << '\n';
 
     }
 
