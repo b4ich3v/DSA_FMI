@@ -2,17 +2,18 @@
 #include <vector>
 #include <algorithm>
 
-class Solution 
+class Solution
 {
 public:
- 
+
 	int search(std::vector<int>& nums, int target)
-    {
+	{
 
 		int left = 0;
 		int right = nums.size() - 1;
 
-		while (left <= right) {
+		while (left <= right)
+		{
 
 			int middle = left + (right - left) / 2;
 
@@ -24,6 +25,6 @@ public:
 
 		return -1;
 
-    }
+	}
 
 };
