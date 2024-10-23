@@ -12,7 +12,6 @@
 
 7. Search a 2D Matrix - Medium - https://leetcode.com/problems/search-a-2d-matrix/description/
 
-8. Find first and last position of element in sorted array - Medium - https://leetcode.com/problems/find-first-and-last-position-of-element-in- 
-   sorted-array/description/
+8. Find first and last position of element in sorted array - Medium - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
    
 9. Safe Sort - Medium - https://www.hackerrank.com/contests/si-practice-2/challenges/task-1-1-1
