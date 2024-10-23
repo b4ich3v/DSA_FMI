@@ -15,3 +15,7 @@
 8. Find first and last position of element in sorted array - Medium - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
    
 9. Safe Sort - Medium - https://www.hackerrank.com/contests/si-practice-2/challenges/task-1-1-1
+
+10. Single Element in a Sorted array - Medium - https://leetcode.com/problems/single-element-in-a-sorted-array/description/
+   
+11. Search in Rotated Sorted Array - Medium - https://leetcode.com/problems/search-in-rotated-sorted-array/description/
