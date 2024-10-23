@@ -19,3 +19,5 @@
 10. Single Element in a Sorted array - Medium - https://leetcode.com/problems/single-element-in-a-sorted-array/description/
    
 11. Search in Rotated Sorted Array - Medium - https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+
+12. Find Minimum in Rotated Sorted Array II - Hard - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/?envType=problem-list-v2&envId=binary-search
