@@ -21,3 +21,5 @@
 11. Search in Rotated Sorted Array - Medium - https://leetcode.com/problems/search-in-rotated-sorted-array/description/
 
 12. Find Minimum in Rotated Sorted Array II - Hard - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/?envType=problem-list-v2&envId=binary-search
+
+13. Cicle Array - Medium - https://www.hackerrank.com/contests/sda-2020-2021-test3-trvdd/challenges/weird-array-1/problem
