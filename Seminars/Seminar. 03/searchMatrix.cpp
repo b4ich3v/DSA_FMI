@@ -1,4 +1,3 @@
-#include <iostream>
 #include <vector>
 #include <algorithm>
 
@@ -6,43 +5,23 @@ class Solution
 {
 public:
 
-    int search(const std::vector<int>& nums, int target)
-    {
+    bool searchMatrix(std::vector<std::vector<int>>& matrix, int target) 
+	{
 
-        int left = 0;
-        int right = nums.size() - 1;
+		int i = matrix.size() - 1;
+		int j = 0;
 
-        while (left <= right) 
-        {
+		while (i >= 0 && j < matrix[0].size())
+		{
 
-            int middle = left + (right - left) / 2;
+			if (matrix[i][j] == target) return true;
 
-            if (nums[middle] > target) right = middle - 1;
-            else if (nums[middle] < target) left = middle + 1;
-            else return middle;
+			if (matrix[i][j] < target) j++;
+			else i--;
 
-        }
+		}
 
-        return -1;
-
-    }
-
-    bool searchMatrix(std::vector<std::vector<int>>& matrix, int target)
-    {
-
-        int countRows = matrix.size();
-
-        for (int i = 0; i < countRows; i++)
-        {
-
-            if (search(matrix[i], target) != -1) return true;
-
-        }
-
-        return false;
+		return false;
 
     }
-
 };
-
-
