@@ -1,54 +1,69 @@
 #include <iostream>
-#include <vector>
-#include <list>
 
 struct ListNode 
 {
 
-    int value;
+    int val;
     ListNode* next;
-    ListNode(int x) : value(x), next(nullptr) {}
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode* next) : val(x), next(next) {}
 
 };
-
+ 
 class Solution 
 {
 public:
 
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2)
     {
-        
-        ListNode* dummy = new ListNode(0);
-        ListNode* current = dummy; 
 
-        while (list1 != nullptr && list2 != nullptr) 
+        ListNode* dummy = new ListNode(0);
+        ListNode* current = dummy;
+
+        while (list1 && list2)
         {
 
-            if (list1->value < list2->value) 
+            if (list1->val < list2->val)
             {
 
-                current->next = list1; 
-                list1 = list1->next;  
+                current->next = list1;
+                list1 = list1->next;
 
             }
             else
             {
 
-                current->next = list2; 
-                list2 = list2->next;    
+                current->next = list2;
+                list2 = list2->next;
 
             }
 
-            current = current->next; 
+            current = current->next;
 
         }
 
-        if (list1 != nullptr)    current->next = list1;
-        else  current->next = list2;
+        while (list1)
+        {
 
-        ListNode* mergedList = dummy->next;
-        delete dummy; 
-        return mergedList;
+            current->next = list1;
+            list1 = list1->next;
+            current = current->next;
+
+        }
+
+        while (list2)
+        {
+
+            current->next = list2;
+            list2 = list2->next;
+            current = current->next;
+
+        }
+
+        ListNode* res = dummy->next;
+        delete dummy;
+        return res;
 
     }
 
