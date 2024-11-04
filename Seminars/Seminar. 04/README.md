@@ -22,7 +22,7 @@
   
 12. Remove Nth Node From End of List - Medium - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
  
-14.Odd and Event Linked list - Medium - https://leetcode.com/problems/odd-even-linked-list/
+13. Odd and Event Linked list - Medium - https://leetcode.com/problems/odd-even-linked-list/
 
-15. Linked List cycle 2 - Medium - https://leetcode.com/problems/linked-list-cycle-ii/
+14. Linked List cycle 2 - Medium - https://leetcode.com/problems/linked-list-cycle-ii/
 
