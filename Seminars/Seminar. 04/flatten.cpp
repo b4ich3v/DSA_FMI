@@ -18,21 +18,22 @@ public:
 	Node* flatten(Node* head) 
 	{
 
-		for (Node* i = head; i; i = i->next)
+		for (Node* current1 = head; current1; current1 = current1->next)
 		{
 
-			if (i->child)
+			if (current1->child)
 			{
 
-				Node* next = i->next;
-				i->next = i->child;
-				i->next->prev = i;
-				i->child = nullptr;
+				Node* next = current1->next;
+				current1->next = current1->child;
+				current1->next->prev = current1;
+				current1->child = nullptr;
 
-				Node* j = i->next;
-				while (j->next) j = j->next;
-				j->next = next;
-				if (next) next->prev = j;
+				Node* current2 = current1->next;
+				while (current2->next) current2 = current2->next;
+				current2->next = next;
+				if (next) next->prev = current2;
+
 			}
 
 		}
