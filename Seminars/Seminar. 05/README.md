@@ -1,25 +1,29 @@
-1. Valid Parentheses - Easy -
+1. Number of recent calls - Easy
 
-2. Backspace String Compare - Easy -
+2. Number of Students Unable to Eat Lunch - Easy
 
-3. Remove all adjacent duplicates in string - Easy -
+3. Valid Parentheses - Easy -
 
-4. Baseball game - Easy -
+4. Backspace String Compare - Easy -
 
-5. Next Greater Node in Linked List - Medium -
+5. Remove all adjacent duplicates in string - Easy -
+
+6. Baseball game - Easy -
+
+7. Next Greater Node in Linked List - Medium -
    
-6. Daily temperatures - Medium -
+8. Daily temperatures - Medium -
 
-7. Welcome to the jungle - Medium -
+9. Welcome to the jungle - Medium -
 
-8. Maximum average subarray 1 - Easy -
+10. Maximum average subarray 1 - Easy -
 
-9. Sliding Window Maximum - Hard -
+11. Sliding Window Maximum - Hard -
 
-10. Maximum Nesting Depth of the Parentheses - Easy -
+12. Maximum Nesting Depth of the Parentheses - Easy -
 
-11. Asteroid collision - Medium -
+13. Asteroid collision - Medium -
      
-12. Evaluate reverse polish notation - Medium -
+14. Evaluate reverse polish notation - Medium -
 
-13. Min stack - Medium -
+15. Min stack - Medium -
