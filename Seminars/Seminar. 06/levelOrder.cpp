@@ -1,4 +1,5 @@
 #include <vector>
+#include <queue>
 
 struct TreeNode 
 {
@@ -12,27 +13,42 @@ struct TreeNode
 
 };
 
-class Solution
+class Solution 
 {
 public:
 
-    void travel(TreeNode* node, std::vector<int>& v)
+    std::vector<std::vector<int>> levelOrder(TreeNode* root)
     {
 
-        if(!node) return;
+        std::vector<std::vector<int>> result;
+        std::queue<TreeNode*> q;
 
-        v.push_back(node->val);
+        if (!root) return result;
 
-        travel(node->left, v);
-        travel(node->right, v);
+        q.push(root);
 
-    }
+        while (!q.empty())
+        {
 
-    std::vector<int> preorderTraversal(TreeNode* root) 
-    {
+            int size = q.size();
+            std::vector<int> currentLevel;
 
-        std::vector<int> result;
-        travel(root, result);
+            for (int i = 0; i < size; i++)
+            {
+
+                TreeNode* currentNode = q.front();
+                q.pop();
+
+                if (currentNode->left != nullptr) q.push(currentNode->left);
+                if (currentNode->right != nullptr) q.push(currentNode->right);
+
+                currentLevel.push_back(currentNode->val);
+
+            }
+
+            result.push_back(currentLevel);
+
+        }
 
         return result;
 
