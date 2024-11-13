@@ -8,7 +8,7 @@
 
 5. Validate Binary Search Tree - MEDIUM - https://leetcode.com/problems/validate-binary-search-tree/description/
 
-6. Path Sum III - HARD
+6. Path Sum III - HARD - https://leetcode.com/problems/path-sum-iii/submissions/1451528165/
 
 7. My Calendar I - EASY/MEDIUM
 
