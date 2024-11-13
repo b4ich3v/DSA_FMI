@@ -2,7 +2,7 @@
 
 2. Maximum Depth of Binary Tree - EASY - https://leetcode.com/problems/maximum-depth-of-binary-tree/solutions/6038793/easy-c-solution/
 
-3. Binary Tree Level Order Traversal - EASY
+3. Binary Tree Level Order Traversal - EASY - https://leetcode.com/problems/binary-tree-level-order-traversal/description/
 
 4. Binary Tree Right Side View - MEDIUM
 
