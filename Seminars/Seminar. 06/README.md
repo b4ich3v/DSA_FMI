@@ -4,7 +4,7 @@
 
 3. Binary Tree Level Order Traversal - EASY - https://leetcode.com/problems/binary-tree-level-order-traversal/description/
 
-4. Binary Tree Right Side View - MEDIUM
+4. Binary Tree Right Side View - MEDIUM - https://leetcode.com/problems/binary-tree-right-side-view/
 
 5. Validate Binary Search Tree - MEDIUM
 
