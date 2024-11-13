@@ -6,7 +6,7 @@
 
 4. Binary Tree Right Side View - MEDIUM - https://leetcode.com/problems/binary-tree-right-side-view/
 
-5. Validate Binary Search Tree - MEDIUM
+5. Validate Binary Search Tree - MEDIUM - https://leetcode.com/problems/validate-binary-search-tree/description/
 
 6. Path Sum III - HARD
 
