@@ -14,4 +14,4 @@
 
 8. Stock Price Fluctuation - MEDIUM - https://leetcode.com/problems/stock-price-fluctuation/description/
 
-9. Contains Duplicate III - MEDIUM
+9. Contains Duplicate III - MEDIUM - https://leetcode.com/problems/contains-duplicate-iii/description/
