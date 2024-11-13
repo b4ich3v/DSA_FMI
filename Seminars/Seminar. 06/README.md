@@ -10,7 +10,7 @@
 
 6. Path Sum III - HARD - https://leetcode.com/problems/path-sum-iii/submissions/1451528165/
 
-7. My Calendar I - EASY/MEDIUM
+7. My Calendar I - EASY/MEDIUM - https://leetcode.com/problems/my-calendar-i/submissions/1451531892/
 
 8. Stock Price Fluctuation - MEDIUM
 
