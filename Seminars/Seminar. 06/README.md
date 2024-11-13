@@ -12,6 +12,6 @@
 
 7. My Calendar I - EASY/MEDIUM - https://leetcode.com/problems/my-calendar-i/submissions/1451531892/
 
-8. Stock Price Fluctuation - MEDIUM
+8. Stock Price Fluctuation - MEDIUM - https://leetcode.com/problems/stock-price-fluctuation/description/
 
 9. Contains Duplicate III - MEDIUM
