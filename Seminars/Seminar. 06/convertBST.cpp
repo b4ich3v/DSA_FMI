@@ -20,24 +20,29 @@ struct TreeNode
 
 class Solution
 {
-private:
-
-    int sum = 0;
-
 public:
+
+    void reversedInorder(TreeNode* node, int& sum)
+    {
+
+        if (!node) return;
+
+        reversedInorder(node->right, sum);
+        sum += node->val;
+        node->val = sum;
+        reversedInorder(node->left, sum);
+
+    }
 
     TreeNode* convertBST(TreeNode* root)
     {
-        
-        if (root)
-        {
 
-            convertBST(root->right);  
-            sum += root->val;         
-            root->val = sum;          
-            convertBST(root->left);
+        if (!root) return nullptr;
 
-        }
+        int totalSum = 0;
+        TreeNode* current = root;
+
+        reversedInorder(root, totalSum);
 
         return root;
 
