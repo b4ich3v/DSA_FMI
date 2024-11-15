@@ -34,6 +34,6 @@
 
 18. Range Sum of BST - Easy - https://leetcode.com/problems/range-sum-of-bst/description/
 
-19 .Trim BST - Medium - https://leetcode.com/problems/trim-a-binary-search-tree/description/
+19. Trim BST - Medium - https://leetcode.com/problems/trim-a-binary-search-tree/description/
 
 20. Convert BST to Greater Tree - Medium - https://leetcode.com/problems/convert-bst-to-greater-tree/description/
