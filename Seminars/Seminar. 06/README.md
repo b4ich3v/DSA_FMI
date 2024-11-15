@@ -15,3 +15,25 @@
 8. Stock Price Fluctuation - MEDIUM - https://leetcode.com/problems/stock-price-fluctuation/description/
 
 9. Contains Duplicate III - MEDIUM - https://leetcode.com/problems/contains-duplicate-iii/description/
+
+10. Insert into a BST - MEDIUM - https://leetcode.com/problems/insert-into-a-binary-search-tree/description/
+
+11. Delete Node in a BST - MEDIUM - https://leetcode.com/problems/delete-node-in-a-bst/description/
+
+12. inorder - Easy - https://leetcode.com/problems/binary-tree-inorder-traversal/description/
+
+13. postorder - Easy - https://leetcode.com/problems/binary-tree-postorder-traversal/description/
+
+14. preorder - Easy - https://leetcode.com/problems/binary-tree-preorder-traversal/description/
+
+15. level order - Medium - https://leetcode.com/problems/binary-tree-level-order-traversal/description/
+
+16. Same Tree - Easy - https://leetcode.com/problems/same-tree/description/
+
+17. Symetric Tree - Easy - https://leetcode.com/problems/symmetric-tree/description/
+
+18. Range Sum of BST - Easy - https://leetcode.com/problems/range-sum-of-bst/description/
+
+19 .Trim BST - Medium - https://leetcode.com/problems/trim-a-binary-search-tree/description/
+
+20. Convert BST to Greater Tree - Medium - https://leetcode.com/problems/convert-bst-to-greater-tree/description/
