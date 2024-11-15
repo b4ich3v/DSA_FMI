@@ -1,7 +1,12 @@
 #include <vector>
+#include <queue>
 #include <iostream>
+#include <string>
+#include <stack>
+#include <algorithm>
+#include <set>
 
-struct TreeNode 
+struct TreeNode
 {
 
     int val;
@@ -12,22 +17,19 @@ struct TreeNode
     TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
 
 };
- 
-class Solution 
+
+class Solution
 {
 public:
 
-   
-
-    void pushingElements(TreeNode* root, std::vector<int>& result)
+    void pushFunc(TreeNode* node, std::vector<int>& arr)
     {
 
-        if (!root) return;
+        if (!node) return;
 
-        result.push_back(root->val);
-
-        pushingElements(root->left, result);
-        pushingElements(root->right, result);
+        arr.push_back(node->val);
+        pushFunc(node->left, arr);
+        pushFunc(node->right, arr);
 
     }
 
@@ -35,8 +37,8 @@ public:
     {
 
         std::vector<int> result;
-        pushingElements(root, result);
 
+        pushFunc(root, result);
         return result;
 
     }
