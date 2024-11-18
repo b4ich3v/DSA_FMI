@@ -29,3 +29,5 @@
 15. Min stack - Medium - https://leetcode.com/problems/min-stack/description/
 
 16. Water trap - Hard - https://leetcode.com/problems/trapping-rain-water/submissions/1456384688/
+
+17. Next Greater Elements 2 = Medium - https://leetcode.com/problems/next-greater-element-ii/
