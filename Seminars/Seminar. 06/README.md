@@ -1,4 +1,4 @@
-*da
+* da
 1. Binary Tree Preorder Traversal - EASY - https://leetcode.com/problems/binary-tree-preorder-traversal/submissions/1451075759/
 
 2. Maximum Depth of Binary Tree - EASY - https://leetcode.com/problems/maximum-depth-of-binary-tree/solutions/6038793/easy-c-solution/
