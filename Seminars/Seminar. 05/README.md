@@ -27,3 +27,5 @@
 14. Evaluate reverse polish notation - Medium - https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
 
 15. Min stack - Medium - https://leetcode.com/problems/min-stack/description/
+
+16. Water trap - Hard - https://leetcode.com/problems/trapping-rain-water/submissions/1456384688/
