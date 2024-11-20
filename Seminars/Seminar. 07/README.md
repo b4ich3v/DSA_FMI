@@ -15,3 +15,5 @@
 8. Coint change - https://leetcode.com/problems/coin-change/ - MEDIUM
 
 9. Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/submissions/1458677254/ - MEDIUM
+
+10. Rob the house - https://leetcode.com/problems/house-robber/submissions/1458681233/ - MEDIUM
