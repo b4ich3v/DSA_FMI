@@ -2,11 +2,11 @@
    
 2. Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/description/ - EASY
 
-3. Unique Paths - https://leetcode.com/problems/unique-paths/description/ - EASY
+3. Unique Paths I - https://leetcode.com/problems/unique-paths/description/ - EASY
 
 4. Unique Paths II - https://leetcode.com/problems/unique-paths-ii/ - MEDIUM
 
-5. https://leetcode.com/problems/unique-paths-iii/description/ - MEDIUM
+5. Unique Paths III - https://leetcode.com/problems/unique-paths-iii/description/ - MEDIUM
 
 6. https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/ - MEDIUM
 
