@@ -1,6 +1,6 @@
 1. Climbing stairs - https://leetcode.com/problems/climbing-stairs/ - EASY
    
-2. https://leetcode.com/problems/min-cost-climbing-stairs/description/ - EASY
+2. Min Cost Climbing Stairs - https://leetcode.com/problems/min-cost-climbing-stairs/description/ - EASY
 
 3. https://leetcode.com/problems/unique-paths/description/ - EASY
 
