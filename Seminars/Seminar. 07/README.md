@@ -12,6 +12,6 @@
 
 7. Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/description/ - HARD
 
-8. Coint change - https://leetcode.com/problems/coin-change/
+8. Coint change - https://leetcode.com/problems/coin-change/ - MEDIUM
 
-9. Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/submissions/1458677254/
+9. Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/submissions/1458677254/ - MEDIUM
