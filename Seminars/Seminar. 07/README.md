@@ -8,6 +8,6 @@
 
 5. Unique Paths III - https://leetcode.com/problems/unique-paths-iii/description/ - MEDIUM
 
-6. Longest Increasing Subsequence - https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/ - MEDIUM
+6.  - https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/ - MEDIUM
 
-7. https://leetcode.com/problems/longest-increasing-subsequence/description/ - HARD
+7. Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/description/ - HARD
