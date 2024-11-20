@@ -4,7 +4,7 @@
 
 3. Unique Paths - https://leetcode.com/problems/unique-paths/description/ - EASY
 
-4. https://leetcode.com/problems/unique-paths-ii/ - MEDIUM
+4. Unique Paths II - https://leetcode.com/problems/unique-paths-ii/ - MEDIUM
 
 5. https://leetcode.com/problems/unique-paths-iii/description/ - MEDIUM
 
