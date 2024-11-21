@@ -1,34 +1,33 @@
 #include <vector>
-#include <stack>
-#include <iostream>
 #include <algorithm>
-#include <queue>
+#include <string>
 
-class Solution 
+class Solution
 {
 public:
 
-    int uniquePaths(int m, int n)
+    int uniquePaths(int rows, int cols)
     {
 
-        std::vector<std::vector<int>> matrix(m, std::vector<int>(n, 1));
+        std::vector<std::vector<int>> dp(rows, std::vector<int>(cols, 0));
 
-        for (int i = 1; i < m; i++)
+        for (int i = 0; i < rows; i++) dp[i][0] = 1;
+        for (int i = 0; i < cols; i++) dp[0][i] = 1;
+
+        for (int i = 1; i < rows; i++)
         {
 
-            for (int j = 1; j < n; j++)
+            for (int j = 1; j < cols; j++)
             {
 
-                matrix[i][j] = matrix[i - 1][j] + matrix[i][j - 1];
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
 
             }
 
         }
 
-        return matrix[m - 1][n - 1];
+        return dp[rows - 1][cols - 1];
 
     }
 
 };
-
-
