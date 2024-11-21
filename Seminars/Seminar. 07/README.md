@@ -19,3 +19,5 @@
 10. Rob the house - https://leetcode.com/problems/house-robber/submissions/1458681233/ - MEDIUM
 
 11. Min path sum - https://leetcode.com/problems/minimum-path-sum/submissions/1458690705/ - MEDIUM
+
+12. Largest Common Subsequence - https://leetcode.com/problems/longest-common-subsequence/description/ - MEDIUM
