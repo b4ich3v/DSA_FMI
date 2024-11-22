@@ -25,3 +25,5 @@
 13. Fibonacci Number - https://leetcode.com/problems/fibonacci-number/description/ - MEDIUM
 
 14. Tribonacci Number - https://leetcode.com/problems/n-th-tribonacci-number/description/ - MEDIUM
+
+15. Jump Game - https://leetcode.com/problems/jump-game/description/ - MEDIUM
