@@ -6,7 +6,7 @@
 
 4. Unique Paths II - https://leetcode.com/problems/unique-paths-ii/ - MEDIUM
 
-5. Unique Paths III - https://leetcode.com/problems/unique-paths-iii/description/ - MEDIUM
+5. Unique Paths III - https://leetcode.com/problems/unique-paths-iii/description/ - HARD
 
 6. Guess Number Higher or Lower II - https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/ - MEDIUM
 
