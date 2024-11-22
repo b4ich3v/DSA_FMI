@@ -23,3 +23,5 @@
 12. Longest Common Subsequence - https://leetcode.com/problems/longest-common-subsequence/description/ - MEDIUM
 
 13. Fibonacci Number - https://leetcode.com/problems/fibonacci-number/description/ - MEDIUM
+
+14. Tribonacci Number - https://leetcode.com/problems/n-th-tribonacci-number/description/ - MEDIUM
