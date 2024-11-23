@@ -1,38 +1,39 @@
+#include <iostream>
+#include <string>
 #include <vector>
-#include <algorithm> 
 
 class Solution 
 {
 public:
 
-    int getMoneyAmount(int n)
+    int getMoneyAmount(int n) 
     {
 
         std::vector<std::vector<int>> dp(n + 1, std::vector<int>(n + 1, 0));
 
-        for (int len = 2; len <= n; len++)
+        for (int i = 2; i <= n; i++)
         {
 
-            for (int begin = 0; begin <= n - len; begin++) 
+            for (int j = 0; j <= n - i; j++) 
             {
 
-                int end = begin + len;
+                int end = i + j;
 
-                for (int i = begin; i < end; i++)
+                for (int k = j; k < end; k++)
                 {
 
-                    int numPicked = i + 1;
+                    int numPicked = k + 1;
 
-                    if (i == begin) 
+                    if (k == j) 
                     {
 
-                        dp[begin][end] = numPicked + dp[begin + 1][end];
+                        dp[j][end] = numPicked + dp[j + 1][end];
 
                     }
-                    else 
+                    else
                     {
 
-                        dp[begin][end] = std::min(dp[begin][end], std::max(dp[begin][i], dp[i + 1][end]) + numPicked);
+                        dp[j][end] = std::min(dp[j][end], std::max(dp[j][k], dp[k + 1][end]) + numPicked);
 
                     }
 
