@@ -10,11 +10,11 @@
 
 6. Guess Number Higher or Lower II - https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/ - MEDIUM
 
-7. Longest Increasing Subsequence 2 - https://leetcode.com/problems/longest-increasing-subsequence-ii/description/ - HARD
+7. Longest Increasing Subsequence II - https://leetcode.com/problems/longest-increasing-subsequence-ii/description/ - HARD
 
 8. Coint change - https://leetcode.com/problems/coin-change/ - MEDIUM
 
-9. Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/submissions/1458677254/ - MEDIUM
+9. Longest Increasing Subsequence I - https://leetcode.com/problems/longest-increasing-subsequence/submissions/1458677254/ - MEDIUM
 
 10. Rob the house - https://leetcode.com/problems/house-robber/submissions/1458681233/ - MEDIUM
 
