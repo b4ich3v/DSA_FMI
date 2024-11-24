@@ -12,7 +12,7 @@
 
 7. Longest Increasing Subsequence II - https://leetcode.com/problems/longest-increasing-subsequence-ii/description/ - HARD
 
-8. Coint change - https://leetcode.com/problems/coin-change/ - MEDIUM
+8. Coin change - https://leetcode.com/problems/coin-change/ - MEDIUM
 
 9. Longest Increasing Subsequence I - https://leetcode.com/problems/longest-increasing-subsequence/submissions/1458677254/ - MEDIUM
 
