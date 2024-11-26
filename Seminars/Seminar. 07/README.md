@@ -27,3 +27,5 @@
 14. Tribonacci Number - https://leetcode.com/problems/n-th-tribonacci-number/description/ - MEDIUM
 
 15. Jump Game - https://leetcode.com/problems/jump-game/description/ - MEDIUM
+
+16. Count Vowel - https://leetcode.com/problems/count-sorted-vowel-strings/description/ - MEDIUM
