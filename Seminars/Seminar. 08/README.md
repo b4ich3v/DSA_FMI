@@ -3,3 +3,5 @@
 2. Subarray Sum Equals K - https://leetcode.com/problems/subarray-sum-equals-k/submissions/1464578787/ - Medium
 
 3. Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/submissions/1464586077/ - Medium
+
+4. Contains Duplicate 2 - https://leetcode.com/problems/contains-duplicate-ii/ - Easy
