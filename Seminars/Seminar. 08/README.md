@@ -5,3 +5,5 @@
 3. Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/submissions/1464586077/ - Medium
 
 4. Contains Duplicate 2 - https://leetcode.com/problems/contains-duplicate-ii/ - Easy
+
+5. Group anagrams - https://leetcode.com/problems/group-anagrams/ - Medium
