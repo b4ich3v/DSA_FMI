@@ -7,3 +7,5 @@
 4. Contains Duplicate 2 - https://leetcode.com/problems/contains-duplicate-ii/ - Easy
 
 5. Group anagrams - https://leetcode.com/problems/group-anagrams/ - Medium
+
+6. Candies - https://leetcode.com/problems/distribute-candies/ - Easy
