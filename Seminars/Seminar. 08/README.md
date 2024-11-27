@@ -9,3 +9,5 @@
 5. Group anagrams - https://leetcode.com/problems/group-anagrams/ - Medium
 
 6. Candies - https://leetcode.com/problems/distribute-candies/ - Easy
+
+7. Two Sum - https://leetcode.com/problems/two-sum/ - Easy
