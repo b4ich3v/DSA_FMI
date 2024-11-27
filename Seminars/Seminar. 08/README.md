@@ -11,3 +11,5 @@
 6. Candies - https://leetcode.com/problems/distribute-candies/ - Easy
 
 7. Two Sum - https://leetcode.com/problems/two-sum/ - Easy
+
+8. Find Occurrences - https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/submissions/1464606322/ - Medium
