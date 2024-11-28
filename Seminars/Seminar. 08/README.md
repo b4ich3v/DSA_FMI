@@ -15,3 +15,5 @@
 8. Find Occurrences - https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/submissions/1464606322/ - Medium
 
 9. Find Unique Binary String - https://leetcode.com/problems/find-unique-binary-string/ - Medium
+
+10. Three Sum - https://leetcode.com/problems/3sum/submissions/1464628178/- Medium
