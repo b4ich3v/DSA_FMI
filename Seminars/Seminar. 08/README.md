@@ -21,3 +21,5 @@
 11. Find pairs - https://leetcode.com/problems/k-diff-pairs-in-an-array/submissions/1466083393/ - Medium
 
 12. Count of bad pairs - https://leetcode.com/problems/count-number-of-bad-pairs/description/ - Medium
+
+13. Contiguous array - https://leetcode.com/problems/contiguous-array/description/ - Medium
