@@ -19,3 +19,5 @@
 10. Three Sum - https://leetcode.com/problems/3sum/submissions/1464628178/- Medium
 
 11. Find pairs - https://leetcode.com/problems/k-diff-pairs-in-an-array/submissions/1466083393/ - Medium
+
+12. Count of bad pairs - https://leetcode.com/problems/count-number-of-bad-pairs/description/ - Medium
