@@ -23,3 +23,5 @@
 12. Count of bad pairs - https://leetcode.com/problems/count-number-of-bad-pairs/description/ - Medium
 
 13. Contiguous array - https://leetcode.com/problems/contiguous-array/description/ - Medium
+
+14. Repeated DNA - https://leetcode.com/problems/repeated-dna-sequences/description/ - Medium
