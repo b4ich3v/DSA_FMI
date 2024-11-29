@@ -17,3 +17,5 @@
 9. Find Unique Binary String - https://leetcode.com/problems/find-unique-binary-string/ - Medium
 
 10. Three Sum - https://leetcode.com/problems/3sum/submissions/1464628178/- Medium
+
+11. Find pairs - https://leetcode.com/problems/k-diff-pairs-in-an-array/submissions/1466083393/ - Medium
