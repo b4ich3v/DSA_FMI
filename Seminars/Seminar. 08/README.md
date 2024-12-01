@@ -27,3 +27,5 @@
 14. Repeated DNA - https://leetcode.com/problems/repeated-dna-sequences/description/ - Medium
 
 15. Max len of repeated subbarray - https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/ - HARD
+
+16. Max Equal Frequency - https://leetcode.com/problems/maximum-equal-frequency/ - HARD
