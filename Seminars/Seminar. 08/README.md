@@ -29,3 +29,5 @@
 15. Max len of repeated subbarray - https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/ - HARD
 
 16. Max Equal Frequency - https://leetcode.com/problems/maximum-equal-frequency/ - HARD
+
+17. Max Erase Value - https://leetcode.com/problems/maximum-erasure-value/description/ - Medium
