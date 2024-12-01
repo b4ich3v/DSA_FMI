@@ -31,3 +31,5 @@
 16. Max Equal Frequency - https://leetcode.com/problems/maximum-equal-frequency/ - HARD
 
 17. Max Erase Value - https://leetcode.com/problems/maximum-erasure-value/description/ - Medium
+
+18. Shortest impossible sequence - https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/description/ - HARD
