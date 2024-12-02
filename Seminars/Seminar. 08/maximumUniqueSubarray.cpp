@@ -1,9 +1,10 @@
-#include <string>
+#include <cmath>
+#include <cstdio>
 #include <vector>
-#include <unordered_map>
-#include <map>
-#include <unordered_set>
+#include <iostream>
 #include <algorithm>
+#include <unordered_map>
+#include <unordered_set>
 
 class Solution 
 {
@@ -12,7 +13,7 @@ public:
     int maximumUniqueSubarray(std::vector<int>& nums) 
     {
 
-        std::unordered_set<int> mp;
+        std::unordered_set<int> s;
         int startIndex = 0;
         int currentSum = 0;
         int result = 0;
@@ -20,17 +21,18 @@ public:
         for (int i = 0; i < nums.size(); i++)
         {
 
-            while (mp.count(nums[i])) 
+            while (s.find(nums[i]) != s.end()) 
             {
 
-                mp.erase(nums[startIndex]);
+                s.erase(nums[startIndex]);
                 currentSum -= nums[startIndex];
-                startIndex++;
+                startIndex += 1;
 
             }
 
-            mp.insert(nums[i]);
+
             currentSum += nums[i];
+            s.insert(nums[i]);
             result = std::max(result, currentSum);
 
         }
