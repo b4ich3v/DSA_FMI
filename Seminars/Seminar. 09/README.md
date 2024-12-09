@@ -5,3 +5,5 @@
 3. Max Score after Applying K operations - https://leetcode.com/problems/maximal-score-after-applying-k-operations/submissions/1474359482/ - Medium
 
 4. K Closest Points - https://leetcode.com/problems/k-closest-points-to-origin/description/ - Medium
+
+5. Merge k Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists/submissions/1474393937/ - Hard
