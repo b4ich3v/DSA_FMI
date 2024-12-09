@@ -13,3 +13,5 @@
 7. Gym - https://www.hackerrank.com/contests/sda-test4-2022-2023-343rrsdfs/challenges/challenge-3768/problem - Medium
 
 8. Relative Ranks - https://leetcode.com/problems/relative-ranks/description/?envType=problem-list-v2&envId=heap-priority-queue - Easy
+
+9. Task Scheduler - https://leetcode.com/problems/task-scheduler/submissions/1474620424/ - Medium
