@@ -9,3 +9,5 @@
 5. Merge k Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists/submissions/1474393937/ - Hard
 
 6. Find Median - https://leetcode.com/problems/find-median-from-data-stream/description/ - Hard
+
+7 Gym - https://www.hackerrank.com/contests/sda-test4-2022-2023-343rrsdfs/challenges/challenge-3768/problem - Medium
