@@ -10,4 +10,6 @@
 
 6. Find Median - https://leetcode.com/problems/find-median-from-data-stream/description/ - Hard
 
-7 Gym - https://www.hackerrank.com/contests/sda-test4-2022-2023-343rrsdfs/challenges/challenge-3768/problem - Medium
+7. Gym - https://www.hackerrank.com/contests/sda-test4-2022-2023-343rrsdfs/challenges/challenge-3768/problem - Medium
+
+8. Relative Ranks - https://leetcode.com/problems/relative-ranks/description/?envType=problem-list-v2&envId=heap-priority-queue - Easy
