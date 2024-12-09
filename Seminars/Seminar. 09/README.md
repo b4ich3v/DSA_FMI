@@ -3,3 +3,5 @@
 2. Kth Largest Element - https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/1474349404/ - Medium
 
 3. Max Score after Applying K operations - https://leetcode.com/problems/maximal-score-after-applying-k-operations/submissions/1474359482/ - Medium
+
+4. K Closest Points - https://leetcode.com/problems/k-closest-points-to-origin/description/ - Medium
