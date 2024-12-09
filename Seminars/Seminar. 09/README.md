@@ -7,3 +7,5 @@
 4. K Closest Points - https://leetcode.com/problems/k-closest-points-to-origin/description/ - Medium
 
 5. Merge k Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists/submissions/1474393937/ - Hard
+
+6. Find Median - https://leetcode.com/problems/find-median-from-data-stream/description/ - Hard
