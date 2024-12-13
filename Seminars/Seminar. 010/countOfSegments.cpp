@@ -8,80 +8,77 @@
 
 std::unordered_map<int, std::unordered_set<int>> graph;
 
-void dfs(std::unordered_map<int, std::unordered_set<int>>& graph, std::unordered_set<int>& visited, int current)
+void dfs(int current, std::unordered_map<int, std::unordered_set<int>>& graph, std::unordered_set<int>& visited) 
 {
 
-    visited.insert(current);
+	visited.insert(current);
 
-    for (const auto& child : graph[current])
-    {
+	for (const auto& child : graph[current])
+	{
 
-        if (visited.find(child) == visited.end())
-        {
+		if (visited.find(child) == visited.end()) 
+		{
 
-            dfs(graph, visited, child);
+			dfs(child, graph, visited);
 
-        }
+		}
 
-    }
+	}
 
 }
 
-int solve()
+int solve() 
 {
 
-    int X, Y = 0;
-    std::cin >> X >> Y;
+	int X = 0;
+	int Y = 0;
 
-    for (int i = 0; i < X; i++) graph[i];
+	std::cin >> X >> Y;
 
-    int node1, node2 = 0;
+	for (int i = 0; i < X; i++) graph[i];
 
-    for (int i = 0; i < Y; i++)
-    {
+	for (int i = 0; i < Y; i++)
+	{
 
-        std::cin >> node1 >> node2;
-        graph[node1].insert(node2);
-        graph[node2].insert(node1);
+		int node1, node2 = 0;
+		std::cin >> node1 >> node2;
 
-    }
+		graph[node1].insert(node2);
+		graph[node2].insert(node1);
 
-    int result = 0;
-    std::unordered_set<int> visited;
+	}
 
-    for (const auto& current : graph) 
-    {
+	int result = 0;
+	std::unordered_set<int> visited;
 
-        if (visited.find(current.first) != visited.end()) continue;
-        result += 1;
-        dfs(graph, visited, current.first);
+	for (const auto& current : graph)
+	{
 
-    }
+		if (visited.find(current.first) != visited.end()) continue;
+		result += 1;
+		dfs(current.first, graph, visited);
 
-    graph.clear();
-    return result;
+	}
+
+	graph.clear();
+	return result;
 
 }
 
 int main() 
 {
 
-    std::cin.tie(NULL);
-    std::ios_base::sync_with_stdio(false);
+	int T = 0;
+	std::cin >> T;
 
-    int T = 0;
-    std::cin >> T;
+	for (int i = 0; i < T; i++)
+	{
 
-    for (int i = 0; i < T; i++)
-    {   
+		int result = solve();
+		std::cout << result << " ";
 
-        int result = solve();
-        std::cout << result << " ";
+	}
 
-    }
-
-
-
-    return 0;
+	return 0;
 
 }
