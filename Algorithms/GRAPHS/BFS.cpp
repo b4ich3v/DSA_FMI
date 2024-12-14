@@ -6,17 +6,16 @@
 #include <queue>
 #include <unordered_set>
 
-void bfs(int start, const std::unordered_map<int, std::unordered_set<int>>& graph)
+void bfs(int start, std::unordered_map<int, std::unordered_set<int>>& graph) 
 {
 
 	std::queue<int> q;
-	std::vector<bool> visited(graph.size(), false);
+	std::unordered_set<int> visited;
 
-	visited[start] = true;
 	q.push(start);
+	visited.insert(start);
 
-
-	while (!q.empty())
+	while (!q.empty()) 
 	{
 
 		int size = q.size();
@@ -27,14 +26,15 @@ void bfs(int start, const std::unordered_map<int, std::unordered_set<int>>& grap
 			int current = q.front();
 			q.pop();
 
-			for (const int child : graph[current])
+			for (const auto& child : graph[current])
 			{
 
-				if (!visited[child]) 
+				if (visited.find(child) == visited.end()) 
 				{
 
 					q.push(child);
-					visited[child] = true;
+					visited.insert(child);
+
 
 				}
 
@@ -47,5 +47,3 @@ void bfs(int start, const std::unordered_map<int, std::unordered_set<int>>& grap
 	}
 
 }
-
-
