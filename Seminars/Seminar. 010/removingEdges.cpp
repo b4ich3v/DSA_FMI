@@ -17,7 +17,7 @@ int dfs(int current, int& result, std::unordered_map<int, std::unordered_set<int
     for (const auto& child : graph[current])
     {
 
-        if (!visited.count(child)) 
+        if (visited.find(child) == visited.end()) 
         {
 
             children += dfs(child, result, graph, visited);
