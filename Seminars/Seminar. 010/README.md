@@ -9,3 +9,5 @@
 5. All Paths - https://leetcode.com/problems/all-paths-from-source-to-target/submissions/1478921146/ - Medium
 
 6. Clone Graph - https://leetcode.com/problems/clone-graph/description/ - Medium
+
+7. Removing Edges - https://www.hackerrank.com/contests/sda-test5-2022-2023-43wdst52/challenges/challenge-1761/submissions/code/1386590133 - Medium
