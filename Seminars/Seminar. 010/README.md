@@ -13,3 +13,5 @@
 7. Removing Edges - https://www.hackerrank.com/contests/sda-test5-2022-2023-43wdst52/challenges/challenge-1761/submissions/code/1386590133 - Medium
 
 8. Valid Path - https://leetcode.com/problems/find-if-path-exists-in-graph/description/ - Medium
+
+9. Number Of Provinces - https://leetcode.com/problems/number-of-provinces/description/ - Medium
