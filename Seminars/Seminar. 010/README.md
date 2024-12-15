@@ -17,3 +17,5 @@
 9. Number Of Provinces - https://leetcode.com/problems/number-of-provinces/description/ - Medium
 
 10. Count of Complete Components - https://leetcode.com/problems/count-the-number-of-complete-components/description/ - Medium
+
+11. Can Visit Rooms - https://leetcode.com/problems/keys-and-rooms/description/ - Medium
