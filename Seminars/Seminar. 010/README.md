@@ -15,3 +15,5 @@
 8. Valid Path - https://leetcode.com/problems/find-if-path-exists-in-graph/description/ - Medium
 
 9. Number Of Provinces - https://leetcode.com/problems/number-of-provinces/description/ - Medium
+
+10. Count of Complete Components - https://leetcode.com/problems/count-the-number-of-complete-components/description/ - Medium
