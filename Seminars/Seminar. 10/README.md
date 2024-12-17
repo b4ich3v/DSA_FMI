@@ -19,3 +19,5 @@
 10. Count of Complete Components - https://leetcode.com/problems/count-the-number-of-complete-components/description/ - Medium
 
 11. Can Visit Rooms - https://leetcode.com/problems/keys-and-rooms/description/ - Medium
+
+12. Possible Bipartition - https://leetcode.com/problems/possible-bipartition/description/ - Medium
