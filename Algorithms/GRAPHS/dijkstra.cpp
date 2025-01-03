@@ -27,10 +27,10 @@ public:
 
 };
 
-std::vector<int> dijkstra(int start, std::unordered_map<int, std::vector<Edge>>& graph)
+std::vector<int> dijkstra(int start, int countOfNodes, std::unordered_map<int, std::vector<Edge>>& graph)
 {
 
-	std::vector<int> distances(graph.size(), INT_MAX);
+	std::vector<int> distances(countOfNodes, INT_MAX);
 	std::priority_queue<Node> q;
 
 	distances[start] = 0;
