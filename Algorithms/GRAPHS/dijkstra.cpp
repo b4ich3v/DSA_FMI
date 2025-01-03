@@ -39,26 +39,19 @@ std::vector<int> dijkstra(int start, std::unordered_map<int, std::vector<Edge>>&
 	while (!q.empty())
 	{
 
-		int size = q.size();
+		const auto& current = q.top();
+		q.pop();
 
-		for (int i = 0; i < size; i++)
+		for (const auto& child : graph[current.node])
 		{
 
-			const auto& current = q.top();
-			q.pop();
+			int newWeight = current.distance + child.weight;
 
-			for (const auto& child : graph[current.node]) 
+			if (newWeight < distances[child.weight])
 			{
 
-				int newWeight = current.distance + child.weight;
-
-				if (newWeight < distances[child.weight])
-				{
-
-					distances[child.to] = newWeight;
-					q.push({ child.to, newWeight });
-
-				}
+				distances[child.to] = newWeight;
+				q.push({ child.to, newWeight });
 
 			}
 
