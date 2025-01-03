@@ -9,7 +9,7 @@ public:
 	int node = 0;
 	int distance = 0;
 
-	bool operator < (const Node& other) const 
+	bool operator < (const Node& other) const
 	{
 
 		return distance > other.distance;
@@ -27,10 +27,10 @@ public:
 
 };
 
-std::vector<int> dijkstra(int start, std::unordered_map<int, std::vector<Edge>>& graph) 
+std::vector<int> dijkstra(int start, std::unordered_map<int, std::vector<Edge>>& graph)
 {
 
-	std::vector<int> distances(graph.size(), -1);
+	std::vector<int> distances(graph.size(), INT_MAX);
 	std::priority_queue<Node> q;
 
 	distances[start] = 0;
