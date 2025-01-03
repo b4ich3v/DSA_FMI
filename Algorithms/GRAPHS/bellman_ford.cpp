@@ -11,7 +11,7 @@ public:
 
 };
 
-std::vector<int> dijkstra(int start, int countOfNodes, std::vector<Edge>& graph)
+std::vector<int> bellman_ford(int start, int countOfNodes, std::vector<Edge>& graph)
 {
 
 	std::vector<int> distances(graph.size(), INT_MAX);
