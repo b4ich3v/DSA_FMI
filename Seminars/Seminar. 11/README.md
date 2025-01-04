@@ -8,4 +8,4 @@
 
 5. Cheapest flights within k stops - https://leetcode.com/problems/cheapest-flights-within-k-stops/ - MEDIUM
 
-6 Minimum obstacle removal - https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/description/ - HARD
+6. Minimum obstacle removal - https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/description/ - HARD
