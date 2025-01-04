@@ -39,7 +39,7 @@ private:
     bool newPrice(int index, int arrow) 
     {
 
-        return index != arrow - 1;
+        return index != arrow;
 
     }
 
@@ -75,7 +75,7 @@ public:
                 if (isValid(newX, newY, rows, cols)) 
                 {
 
-                    int newDistance = current.price + newPrice(i, grid[current.x][current.y]);
+                    int newDistance = current.price + newPrice(i + 1, grid[current.x][current.y]);
 
                     if (newDistance < matrix[newX][newY]) 
                     {
