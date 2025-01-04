@@ -62,7 +62,7 @@ public:
             for (const auto& child : graph[current.node]) 
             {
 
-                double newProbability = probRating[current.node] * child.probability;
+                double newProbability = current.probability * child.probability;
 
                 if (probRating[child.to] < newProbability) 
                 {
