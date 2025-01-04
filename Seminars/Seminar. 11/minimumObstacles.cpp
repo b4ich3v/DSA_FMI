@@ -13,7 +13,7 @@ struct Node
     int y;
     int removedObstacles;
 
-    bool operator<(const Node& other) const 
+    bool operator < (const Node& other) const 
     {
 
         return removedObstacles > other.removedObstacles;
