@@ -11,3 +11,5 @@
 6. Minimum obstacle removal - https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/description/ - HARD
 
 7. Path with min effort - https://leetcode.com/problems/path-with-minimum-effort/description/ - HARD
+
+8. Min cost to maka atlest one valid path - https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/ - HARD
