@@ -6,7 +6,7 @@
 #include <unordered_map>
 #include <climits>
 
-struct Node 
+struct Node
 {
 public:
 
@@ -14,7 +14,7 @@ public:
     int y;
     int price;
 
-    bool operator < (const Node& other) const 
+    bool operator < (const Node& other) const
     {
 
         return price > other.price;
@@ -25,21 +25,21 @@ public:
 
 std::vector<std::vector<int>> directions = { {0, 1}, {0, -1}, {1, 0}, {-1, 0} };
 
-class Solution 
+class Solution
 {
 private:
 
-    bool isValid(int x, int y, int rows, int cols) 
+    bool isValid(int x, int y, int rows, int cols)
     {
 
         return 0 <= x && x < rows && 0 <= y && y < cols;
 
     }
 
-    bool newPrice(int index, int arrow) 
+    bool newPrice(int direction, int arrow)
     {
 
-        return index != arrow;
+        return direction != arrow;
 
     }
 
@@ -72,12 +72,12 @@ public:
                 int newX = current.x + directions[i][0];
                 int newY = current.y + directions[i][1];
 
-                if (isValid(newX, newY, rows, cols)) 
+                if (isValid(newX, newY, rows, cols))
                 {
 
                     int newDistance = current.price + newPrice(i + 1, grid[current.x][current.y]);
 
-                    if (newDistance < matrix[newX][newY]) 
+                    if (newDistance < matrix[newX][newY])
                     {
 
                         matrix[newX][newY] = newDistance;
