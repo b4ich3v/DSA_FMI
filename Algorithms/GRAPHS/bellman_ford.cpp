@@ -14,7 +14,7 @@ public:
 std::vector<int> bellman_ford(int start, int countOfNodes, std::vector<Edge>& graph)
 {
 
-	std::vector<int> distances(graph.size(), INT_MAX);
+	std::vector<int> distances(countOfNodes, INT_MAX);
 	distances[start] = 0;
 
 	for (int i = 0; i < countOfNodes - 1; i++)
