@@ -13,3 +13,5 @@
 7. Path with min effort - https://leetcode.com/problems/path-with-minimum-effort/description/ - HARD
 
 8. Min cost to maka atlest one valid path - https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/ - HARD
+
+9. Watched videos by friends - https://leetcode.com/problems/get-watched-videos-by-your-friends/description/ -MEDIUM
