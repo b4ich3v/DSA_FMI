@@ -3,14 +3,14 @@
 #include <unordered_set>
 #include <queue>
 
-struct Edge 
+struct Edge
 {
 
     int from;
     int to;
     int weight;
 
-    bool operator<(const Edge& other) const 
+    bool operator<(const Edge& other) const
     {
 
         return weight > other.weight;
@@ -19,7 +19,7 @@ struct Edge
 
 };
 
-std::vector<Edge> prim(int n, int start, std::unordered_map<int, std::vector<Edge>>& graph) 
+std::vector<Edge> prim(int countOfNodes, int start, std::unordered_map<int, std::vector<Edge>>& graph)
 {
 
     std::priority_queue<Edge> q;
@@ -28,7 +28,7 @@ std::vector<Edge> prim(int n, int start, std::unordered_map<int, std::vector<Edg
 
     std::vector<Edge> mstEdges;
 
-    while (!q.empty() && visited.size() < n) 
+    while (!q.empty() && visited.size() < countOfNodes)
     {
 
         const auto current = q.top();
@@ -39,7 +39,7 @@ std::vector<Edge> prim(int n, int start, std::unordered_map<int, std::vector<Edg
         visited.insert(current.to);
         mstEdges.push_back(current);
 
-        for (const auto& child : graph[current.to]) 
+        for (const auto& child : graph[current.to])
         {
 
             if (visited.find(child.to) == visited.end()) q.push(child);
