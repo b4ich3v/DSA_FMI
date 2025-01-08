@@ -5,3 +5,5 @@
 3. Number of Provinces - https://leetcode.com/problems/number-of-provinces/description/ - Medium
 
 4. Optimize Water Distribution - https://leetcode.com/problems/optimize-water-distribution-in-a-village/description/ - Hard
+
+5. Find Critical and Peseudo-Critical - https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/description/ - Hard
