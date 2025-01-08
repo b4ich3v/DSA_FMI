@@ -10,7 +10,7 @@ struct Edge
     int to;
     int weight;
 
-    bool operator<(const Edge& other) const
+    bool operator < (const Edge& other) const
     {
 
         return weight > other.weight;
