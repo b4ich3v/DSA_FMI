@@ -15,3 +15,5 @@
 8. Min cost to maka atlest one valid path - https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/ - HARD
 
 9. Watched videos by friends - https://leetcode.com/problems/get-watched-videos-by-your-friends/description/ -MEDIUM
+
+10. Valid path - https://leetcode.com/problems/find-if-path-exists-in-graph/description/ - Easy
