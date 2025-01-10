@@ -7,3 +7,5 @@
 4. Optimize Water Distribution - https://leetcode.com/problems/optimize-water-distribution-in-a-village/description/ - Hard
 
 5. Find Critical and Peseudo-Critical - https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/description/ - Hard
+
+6. Cleaning - https://www.hackerrank.com/contests/sda-homework-12/challenges/challenge-2801/problem - Medium
