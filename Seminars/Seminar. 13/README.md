@@ -5,3 +5,5 @@
 3. Reconstruct Itinerary - https://leetcode.com/problems/reconstruct-itinerary/description/ - Hard
 
 4. All paths from src to dst - https://leetcode.com/problems/all-paths-from-source-to-target/description/ - Medium
+
+5. Word dictionary - https://leetcode.com/problems/design-add-and-search-words-data-structure/description/ - Medium
