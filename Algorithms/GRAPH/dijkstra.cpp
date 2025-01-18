@@ -47,7 +47,7 @@ std::vector<int> dijkstra(int start, int countOfNodes, std::unordered_map<int, s
 
 			int newWeight = current.distance + child.weight;
 
-			if (newWeight < distances[child.weight])
+			if (newWeight < distances[child.to])
 			{
 
 				distances[child.to] = newWeight;
