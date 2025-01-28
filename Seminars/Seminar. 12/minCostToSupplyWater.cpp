@@ -88,7 +88,7 @@ public:
 		int counter = 0;
 		int result = 0;
 
-		for (int i = 0; i < n + 1; i++)
+		for (int i = 0; i < pipes.size(); i++)
 		{
 
 			if (uf.areInOneSet(pipes[i][0], pipes[i][1])) continue;
