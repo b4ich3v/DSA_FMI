@@ -13,23 +13,38 @@ public:
     std::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string>& strs)
     {
 
-        std::vector<std::vector<std::string>> result;
-        std::unordered_map<std::string, std::vector<std::string>> mp;
+        std::unordered_set<std::string> wordCounter;
+        std::unordered_map<std::string, int> hashed;
+        int index = 0;
 
-        for (std::string current : strs) 
+        for (const auto& current : strs) 
         {
 
             std::string copy = current;
             std::sort(copy.begin(), copy.end());
 
-            mp[copy].push_back(current);
+            wordCounter.insert(copy);
 
         }
 
-        for (const auto& current : mp) 
+        for (const auto& current : wordCounter) 
         {
 
-            result.push_back(current.second);
+            hashed[current] = index;
+            index += 1;
+
+        }
+
+        std::vector<std::vector<std::string>> result(wordCounter.size());
+
+        for (const auto& current : strs) 
+        {
+
+            std::string copy = current;
+            std::sort(copy.begin(), copy.end());
+
+            result[hashed[copy]].push_back(current);
+
         }
 
         return result;
